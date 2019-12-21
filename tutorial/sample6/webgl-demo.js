@@ -59,7 +59,7 @@ function main() {
       vertexPosition: gl.getAttribLocation(shaderProgram, 'aVertexPosition'),
       textureCoord: gl.getAttribLocation(shaderProgram, 'aTextureCoord'),
     },
-    uniformLocations: {
+    uniformLocations: { 
       projectionMatrix: gl.getUniformLocation(shaderProgram, 'uProjectionMatrix'),
       modelViewMatrix: gl.getUniformLocation(shaderProgram, 'uModelViewMatrix'),
       uSampler: gl.getUniformLocation(shaderProgram, 'uSampler'),
@@ -70,7 +70,7 @@ function main() {
   // objects we'll be drawing.
   const buffers = initBuffers(gl);
 
-  const texture = loadTexture(gl, 'cubetexture.png');
+  const texture = loadTexture(gl, "cubetexture.png");
 
   var then = 0;
 

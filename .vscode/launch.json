@@ -7,10 +7,17 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Launch Chrome",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
-            "file": "${workspaceFolder}/tutorial/sample4/index.html"
+            "file": "${workspaceFolder}/tutorial/sample6/index.html"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/tutorial/sample6/index.html"
         }
     ]
 }
